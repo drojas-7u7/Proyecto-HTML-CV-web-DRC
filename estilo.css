@@ -1,0 +1,58 @@
+/* Estilo para la foto de perfil */
+img{
+    display: block; /*le dices que se comporte como un bloque*/
+    margin: 0 auto 20px;     /* Centra la foto y le da margen abajo */
+}
+
+/* Configuración del cuerpo */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* Un gris azulado muy suave */
+    color: #1c1e21;           /* Un color casi negro para el texto */
+    line-height: 1.6;         /* Espaciado para que no se amontone la letra */
+    max-width: 800px;         /* Ancho máximo de lectura */
+    margin: 0 auto;           /* Centra el CV en la pantalla */
+    padding: 40px 20px;       /* Espacio interior en los bordes */
+}
+
+/* Estilo para los títulos principales */
+h1{
+    color: #004488;           /* Azul profesional para tu nombre */
+    text-align: center;       /* Centra tu nombre */
+}
+
+/* Estilo para los títulos secundarios */
+h2{
+    color: #004488;           /* El mismo azul que tu nombre para dar coherencia */
+    border-bottom: 0.5px solid #004488; /* Una línea fina debajo del título */
+    padding-bottom: 5px;      /* Espacio entre el texto y la línea de abajo */
+    margin-top: 30px;         /* Espacio con la sección anterior para que no esté todo apretado */
+}
+
+/* Estilo para las listas */
+ul{
+    padding-left: 20px; /* Desplaza la lista a la derecha para que los puntos no se salgan del diseño */
+}
+li{
+    margin-bottom: 10px; /* Deja un poco de espacio entre cada "punto" de la lista */
+}
+
+/* Estilo base de los enlaces */
+a{
+    color: #004488;          /* Usamos tu azul profesional */
+    text-decoration: none;   /* Quitamos la raya de debajo por defecto */
+    font-weight: bold;       /* Los hacemos un poco más gruesos para que resalten */
+    transition: 0.3s;        /* ESTA ES LA CLAVE: hace que los cambios sean suaves */
+}
+/* Estilo cuando el ratón está encima */
+a:hover{
+    color: #0077cc;          /* Cambia a un azul más claro/brillante */
+    text-decoration: underline; /* Aparece la raya solo cuando "lo tocas" */
+}
+
+/* Estilo para los cargos y títulos de estudio */
+h3{
+    margin-bottom: 2px;    /* Lo pegamos un poco más al texto de abajo */
+    color: #444;           /* Un gris un poco más claro que el negro */
+    font-size: 1.15rem;    /* Un tamaño intermedio */
+}
