@@ -1,0 +1,12 @@
+# Ignorar archivos temporales de editores (como Nano o VS Code)
+*.swp
+*.save
+.vscode/
+
+# Ignorar archivos del sistema (índices de carpetas)
+.DS_Store
+Thumbs.db
+
+# Ignorar carpetas de configuración que no queremos en la web
+.idea/
+.env
